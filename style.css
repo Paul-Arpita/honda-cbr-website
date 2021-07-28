@@ -1,0 +1,9 @@
+#gray-scale-bike{
+    filter: grayscale(100%);
+}
+.fa-star{
+    color: orange;
+}
+.clients-say-orange{
+    color: #E76F51;
+}
