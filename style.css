@@ -1,3 +1,10 @@
+.bg-banner{
+    background-color: #264653;
+
+}
+.btn-color{
+    background-color: #E76F51;
+}
 #gray-scale-bike{
     filter: grayscale(100%);
 }

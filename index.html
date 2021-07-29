@@ -21,12 +21,12 @@
     <!-- header strats -->
     <header>
 
-        <!---------------------- ----honda cbr banner---- 
+        <!------------------honda cbr banner---- 
         ------------------------>
 
         <section>
-            <div class="row d-flex align-items-center justify-content-center bg-warning mx-0">
-                <div class="col-lg-5 py-5">
+            <div class="row row-cols-1 d-flex align-items-center justify-content-center bg-banner">
+                <div class="col-lg-5 col-md-12 py-5 text-white">
 
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
@@ -36,7 +36,8 @@
                         button with modal
                      -------------------->
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn-lg btn-color rounded text-white" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" style="border: none;">
                         Purchase
                     </button>
 
@@ -46,13 +47,14 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Are you sure to place order?</h5>
+                                    <h5 class="modal-title text-secondary" id="exampleModalLabel">Are you sure to place
+                                        order?</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    <p>Here we are to provide you the best hondas.So choose and purchase now and enjoy.
-                                    </p>
+                                <div class="modal-body text-secondary">
+                                    If you sure that you want to confirm your order then click Yes!
+
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -64,8 +66,8 @@
                     </div>
 
                 </div>
-                <div class="col-lg-5 py-5">
-                    <img width="552px" src="images/header-bike.png" alt="">
+                <div class="col-lg-5 col-md-12 py-5 d-flex justify-content-md-center">
+                    <img class="w-100" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
@@ -82,18 +84,18 @@
                 <p><small>Best bike collection</small></p>
             </div>
 
-            <div class="row gx-5">
-                <div class="col-lg-4">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 gx-5 d-flex justify-content-center">
+                <div class="col">
                     <div class="p-3">
                         <img id="gray-scale-bike" class="img-fluid" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col">
                     <div class="p-3">
                         <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col">
                     <div class="p-3">
                         <img id="gray-scale-bike" class="img-fluid" src="images/feature-bike.jpg" alt="">
                     </div>
@@ -112,7 +114,7 @@
             </div>
 
 
-            <div class="row row-cols-lg-4 row-cols-md-3 g-5 d-flex justify-content-center">
+            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-5 d-flex justify-content-center">
                 <div class="col">
                     <div class="card h-100">
                         <div class="d-flex justify-content-center pt-3">
@@ -210,11 +212,215 @@
     FAQ section
  ------------------->
 
-        <section class="container">
+        <section class="container my-5">
 
-            <h1>hi</h1>
+            <div class="row row-cols-lg-2 row-cols-1 d-flex justify-content-between">
+                <div>
+                    <div class="d-flex justify-content-center">
+                        <img class="img-fluid w-75" src="images/faq.png" alt="">
+                    </div>
+                </div>
+                <div>
+
+                    <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button text-dark fw-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                    aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of “driving” your bike—not just “riding” your bike.
+                                    This will help you be a more focused and legally compliant bike rider.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button text-dark fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing
+                                        and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                                        overriding
+                                        our default variables. It's also worth noting that just about any HTML can go
+                                        within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button" class="accordion-button text-dark fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
+                                        </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing
+                                        and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                                        overriding
+                                        our default variables. It's also worth noting that just about any HTML can go
+                                        within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
+
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button text-dark fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default,
+                                        until the collapse plugin adds the appropriate classes that we use to style each
+                                        element. These classes control the overall appearance, as well as the showing
+                                        and
+                                        hiding via CSS transitions. You can modify any of this with custom CSS or
+                                        overriding
+                                        our default variables. It's also worth noting that just about any HTML can go
+                                        within
+                                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
         </section>
 
+        <!-------------------------
+             bonus part
+         ------------------------------->
+
+        <section class="container mt-5 p-5 bg-secondary bg-gradient d-flex justify-content-center">
+            <a class="btn btn-dark fw-bold text-white" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <h2>Click and Fun</h2>
+            </a>
+
+
+            <div class="offcanvas offcanvas-start bg-secondary bg-gradient" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasExampleLabel">Honda cbr</h3>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        Hey there!Hope you guys are doing well.Today young people are fond of bikes and here we are to
+                        provide you with various gorgeous upcoming models.So have tour to our site!
+                    </div>
+                    <div class="dropdown mt-3">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown">
+                            Click Here
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Bikes</a></li>
+                            <li><a class="dropdown-item" href="#">Latest Models</a></li>
+                            <li><a class="dropdown-item" href="#">Reviews</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="container p-5 mb-2 bg-dark text-white">
+            <div class="d-flex justify-content-center mb-5">
+                <h1>Sign in</h1>
+            </div>
+            <form class="row gy-2 gx-3 align-items-center d-flex justify-content-center">
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInput">Name</label>
+                    <input type="text" class="form-control" id="autoSizingInput" placeholder="User Name">
+                </div>
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-text">@</div>
+                        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                        <label class="form-check-label" for="autoSizingCheck">
+                            Remember me
+                        </label>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                </div>
+            </form>
+        </section>
 
     </main>
     <footer>
